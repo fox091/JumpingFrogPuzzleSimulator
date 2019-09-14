@@ -6,6 +6,8 @@ Spins up the work for each "number of possible jumps" in a new task and waits fo
 Just change the numSimulations and maxPossilbeJumps at the top to simulate it.  MaxPossibleJumps includes the other bank of the river, so 50 would be 49 lily pads.
 
 Example output from 1,000,000,000 simulations each from 2 possible jumps(1 lily pad) to 100 possible jumps(99 lily pads):
+
+```
 Number of possible jumps: 2 Average number of jumps: 1.500014146
 Number of possible jumps: 3 Average number of jumps: 1.833320905
 Number of possible jumps: 4 Average number of jumps: 2.083319119
@@ -105,5 +107,6 @@ Number of possible jumps: 97 Average number of jumps: 5.15717147
 Number of possible jumps: 98 Average number of jumps: 5.167256166
 Number of possible jumps: 99 Average number of jumps: 5.177407255
 Number of possible jumps: 100 Average number of jumps: 5.187416911
+```
 
 That simulation took around 10-15 minutes to run on my desktop computer (Ryzen 7 1700X).
